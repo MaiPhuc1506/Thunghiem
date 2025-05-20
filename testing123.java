@@ -1,0 +1,15 @@
+package testing12;
+
+import javax.swing.*;
+
+public class testing123 {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Greeting GUI");
+        JLabel label = new JLabel("Xin chào bạn!", SwingConstants.CENTER);
+
+        frame.add(label);
+        frame.setSize(300, 150);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}
